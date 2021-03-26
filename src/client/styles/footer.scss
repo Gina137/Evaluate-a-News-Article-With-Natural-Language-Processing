@@ -1,0 +1,27 @@
+//nesting styles
+#results
+{
+    font-size: 2.1em;
+    margin-bottom: 2.3em;
+    line-height: 1em;
+    color: red;
+    padding-left: 1em;
+    .answers{
+   color: rgb(248, 252, 244);
+   font-size: 0.8em;
+    }
+}
+
+$backgroundColor:rgb(82, 90, 122);
+
+footer
+{
+    background-color: $backgroundColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.3em;
+    font-size: 1.3em;
+ a{
+    color: rgb(240, 225, 17);
+}}
